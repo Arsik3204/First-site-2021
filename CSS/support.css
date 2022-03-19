@@ -1,0 +1,124 @@
+@charset "utf-8";
+*{padding:0px;margin:0px;}
+.background {
+    background-repeat: no-repeat; 
+}
+ /*Home_Studio*/
+.Home_Studio {
+    font-size:20px;
+    font-family: 'Sansita',sans-serif;
+    position:absolute;
+    top: 35px;
+    left: 55px;
+    transition-duration: 1s;
+    color: #FFFFFF;
+}
+.Home_Studio:hover {
+    transition-timing-function: ease;
+    color: #D1A8A8;
+    padding-left:25px;
+}
+/* Меню */
+.menu {
+    display:flex;
+    position: absolute;
+    top:17px;
+    left:820px;   
+}
+
+.menu ul {
+    width:400px;
+    height:40px;
+}
+.menu li a {
+    margin-right:64px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    font-family: 'Sansita', sans-serif;
+    color: #FFFFFF;
+  
+    font-style: 900;
+    font-weight: normal;
+    font-size: 36px;
+    transition-duration: 1s;
+}
+
+.ul, li {
+    list-style-type: none;
+}
+.menu li a:hover {
+    transition-timing-function: ease;
+    color: #D1A8A8;
+    padding: 50px;
+}
+/* Цитата */
+.cite {
+    width: 476px;
+    height: 176px;
+    position: absolute;
+    left: 50px;
+    top: 401px;
+
+    font-family: 'Sansita',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #FF8E8E;
+}
+/* Где вы можете меня найти */
+.find_me {
+    width: 605px;
+    height: 81px;
+
+    font-family: 'Sansita',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+
+    color: #D29999;
+    position: absolute;
+    left: 1250px;
+    top: 620px;
+}
+.find_me_social_networks {
+    position: absolute;
+    top: 720px;
+    left: 1150px;
+    width: 569px;
+    height: 53px;
+
+    font-family: 'Sansita',sans-serif;
+    font-size: 26px;
+    line-height: 53px;
+
+    color: #969393;
+}
+/* Подвал */
+.footer {
+    position: absolute;
+    top: 1080px;
+    width: 1901px;
+    height: 194px;
+    background: #836CA7;
+}
+
+.copyright {
+    position: absolute;
+    left: 50px;
+    top: 1150px;
+    width: 259px;
+    height: 48px;
+
+    font-family: 'Sansita',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+}
+

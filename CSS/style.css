@@ -1,0 +1,286 @@
+@charset "utf-8";
+*{padding: 0; margin: 0;}
+/* Фон */
+.background1 {
+    background-repeat: no-repeat;
+}
+/* Название под темы */
+.home {
+position: absolute;
+top: 22px;
+left: 26px;
+
+font-family: 'Sansita',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #FFFFFF;
+transition-duration: 1s;
+}
+.home:hover {
+    transition-timing-function: ease;
+    color: #D1A8A8;
+    padding-left:25px;
+}
+/* Меню */
+
+.menu {
+    display:flex;
+    position: absolute;
+    top:17px;
+    left:750px;   
+}
+
+.menu ul {
+    width:400px;
+    height:40px;
+}
+.menu li a {
+margin-right:64px;
+text-transform: uppercase;
+text-decoration: none;
+
+font-family: 'Sansita', sans-serif;
+color: #FFFFFF;
+  
+font-style: 900;
+font-weight: normal;
+font-size: 36px;
+transition-duration: 1s;
+}
+
+.ul, li {
+    list-style-type: none;
+}
+.menu li a:hover {
+    transition-timing-function: ease;
+    color: #D1A8A8;
+    padding: 50px;
+}
+
+/* Основное */
+.book {
+width: 369px;
+height: 171px;
+
+font-family: 'Sansita', sans-serif;
+font-style: 900;
+font-size: 72px;
+line-height: 86px;
+
+color: #D1A8A8;
+
+position:absolute;
+top: 330px;
+left: 128px;
+}
+
+/* Кнопка */
+.btn {
+position:absolute;
+top: 580px;
+left: 165px;
+
+background: #E1B542;
+border-radius: 3000px;
+
+width: 277px;
+height: 85px;
+}
+
+.btn a {
+display: block;
+padding-left: 48px;
+
+
+font-family: 'Sansita', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 72px;
+text-decoration: none;
+height: 95px;
+color: #FFFFFF;
+transition-duration: 1.5s;
+}
+
+.btn a:hover {
+transition-timing-function: ease;
+background-color: rgb(93, 66, 189);
+width: 230px;
+height: 85px;
+border-radius: 3000px;
+}
+/* Соц.сети */
+.social_networks {
+position: absolute;
+top: 850px;
+left: 1548px;
+
+font-family: 'Sansita', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 43px;
+width: 282px;
+height: 100px;
+
+color: #FFFFFF;
+}
+
+.icon_social_networks {
+position: absolute;
+left: 1555px;
+top:910px;
+}
+
+.icon_social_networks a {
+margin-right:12px;
+}
+
+/* Фон2 */
+.background2 {
+width: 1901px;
+position: absolute;
+top: 1080px;
+background-repeat: no-repeat;
+}
+.portfolio {
+position: absolute;
+top: 1140px;
+left: 820px;
+
+font-family: 'Sansita', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 77px;
+
+color: #000000;
+}
+
+/* Линии */
+.line1 {
+position: absolute;
+top: 1230px;
+left: 780px;
+}
+
+/* Мои умения */
+.My_Skils {
+position: absolute;
+top: 1260px;
+left: 120px;
+font-family: 'Sansita',sans-serif;
+font-size:64px;
+}
+.Visual_Studio_Code {
+position: absolute;
+top: 1355px;
+left: 119px;
+font-family: 'Sansita',sans-serif;
+font-size:36px;
+color: #7B607D;
+}
+
+.line2 {
+position: absolute;
+left: 115px;
+top: 1425px;
+}
+.line3 {
+position: absolute;
+left:466px;
+top: 1425px;
+}
+.Photoshop {
+position: absolute;
+top: 1452px;
+left: 119px;
+font-family: 'Sansita',sans-serif;
+font-size:36px;
+color: #7B607D;
+}
+
+.line4 {
+position: absolute;
+left:115px;
+top: 1525px;
+}
+
+.line5 {
+position: absolute;
+left:466px;
+top: 1525px   
+}
+.Sony_Vegas_Pro {
+position: absolute;
+top: 1555px;
+left: 119px;
+font-family: 'Sansita',sans-serif;
+font-size:36px;
+color: #7B607D;
+}
+
+.line6 {
+position: absolute;
+left:115px;
+top: 1635px;
+}
+
+.line7 {
+position: absolute;
+left:466px;
+top: 1635px  
+}
+
+.photo img {
+position: absolute;
+top: 1330px;
+left: 1090px;
+width:20%;
+max-width: 600px;
+margin: 0 auto;
+}
+photo {
+width: 100%;
+height: auto;
+}
+
+/* Подвал */
+.container {
+width: 1901px;
+height: 189px;
+background-color: #CDBFBF;
+position: absolute;
+top: 2149px;
+}
+/* Авторские права */
+.copyright {
+font-size:36px;
+font-family: 'Sansita', sans-serif;
+color: #AA9494;
+position: absolute;
+top: 2217px;
+left: 44px;
+}
+
+.copyright_defender {
+font-size:72px;
+font-family: 'Sansita', sans-serif;
+color: #AA9494;
+position: absolute;
+top: 2195px;
+left: 700px;
+}
+
+.first {
+font-size:36px;
+font-family: 'Sansita', sans-serif;
+color: #AA9494;
+position: absolute;
+top: 2217px;
+left: 1586px;
+}

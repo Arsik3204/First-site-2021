@@ -1,0 +1,142 @@
+@charset "UTF-8";
+*{padding:0;margin:0;}
+/* Фон */
+.background1 {
+background-repeat:no-repeat;
+}
+/* Название под темы */
+.Home_Studio {
+font-size: 20px;
+position:absolute;
+left: 45px;
+top: 30px;
+font-family: 'Sansita',sans-serif;
+transition-duration: 1s;
+color: #FFFFFF;
+}
+.Home_Studio:hover {
+transition-timing-function: ease;
+color: #D1A8A8;
+padding-left:25px;
+}
+
+/* Меню */
+.menu {
+display:flex;
+position: absolute;
+top:17px;
+left:830px;   
+}
+.menu ul {
+width:400px;
+height:40px;
+}
+.menu li a {
+margin-right:64px;
+text-transform: uppercase;
+text-decoration: none;
+
+font-family: 'Sansita', sans-serif;
+color: #FFFFFF;
+  
+font-style: 900;
+font-weight: normal;
+font-size: 36px;
+transition-duration: 1s;
+}
+.ul, li {
+list-style-type: none;
+}
+.menu li a:hover {
+transition-timing-function: ease;
+color: #D1A8A8;
+padding: 50px;
+}
+/* Текст */
+.Everything_sucks {
+font-size:72px;
+font-family:'Sansita',sans-serif;
+color: #EDD6D6;
+position: absolute;
+left:90px;
+top: 470px;
+}
+
+/* Cтруктура моей жизни,кнопка */
+.btn {
+width: 413px;
+height: 131px;
+border-radius:4000px;
+background-color: #F34E4E;
+position: absolute;
+top: 590px;
+left: 110px;
+}
+.btn  {
+transition-duration: 1.5s;
+}
+.btn a {
+text-decoration: none;
+font-size: 36px;
+color: #FFFFFF;
+font-family: 'Sansita',sans-serif;
+display: block;
+text-align: center;
+line-height: 120px;
+}
+
+.btn:hover {
+transition-timing-function: ease;
+width: 413px;
+background-color:rgb(68, 77, 204);
+}
+
+/* Фон2 */
+.background2 img {
+    position: absolute;
+    top: 1080px;
+    width:1901px;
+    background-repeat: no-repeat;
+}
+
+/* About me */
+.Im_here {
+font-size: 64px;
+font-family: 'Sansita',sans-serif;
+color: #000000;
+position: absolute;
+top: 1119px;
+left: 560px;
+}
+.about_me {
+    width: 1130px;
+    height:814px;
+    font-family: 'Sansita',sans-serif;
+    font-size:64px;
+    position: absolute;
+    left:370px;
+    top: 1240px;
+}
+
+/* Подвал */
+.footer {
+width: 1901px;
+height: 242px;
+background: #FBF2F2;
+position: absolute;
+top: 2149px;
+}
+.end {
+width: 516px;
+height: 155px;
+
+font-family: 'Sansita',sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 173px;
+color: #BD8282;
+position: absolute;
+top: 2170px;
+left: 700px;
+}
